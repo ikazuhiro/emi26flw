@@ -7,7 +7,7 @@ I confirmed Mingw-w64 on MSYS2.
 
 ```sh
 gcc -municode -O3 device.c emi26.c main.c ihex.c emi26r.c \
-  -lwinusb -lcfgmgr32 -l pathcch -l shlwapi -l ole32 -o emi26flw.exe
+  -lwinusb -lcfgmgr32 -lpathcch -lshlwapi -lole32 -o emi26flw.exe
 ```
 
 ## Usage
